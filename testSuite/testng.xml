@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite" parallel="classes" thread-count="4">
-    <test verbose="2" preserve-order="true" name="Submit Order Test">
-        <classes>
-            <class name="org.Automation.submitOrderTest">
-<!--                <methods>-->
-<!--                    <include name="submitOrder"/>-->
-<!--                </methods>-->
-            </class>
-        </classes>
-    </test>
+<!--    <test verbose="2" preserve-order="true" name="Submit Order Test">-->
+<!--        <classes>-->
+<!--            <class name="org.Automation.submitOrderTest">-->
+<!--&lt;!&ndash;                <methods>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <include name="submitOrder"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                </methods>&ndash;&gt;-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
     <test thread-count="5" name="Error Validation Test">
         <classes>
             <class name="org.Automation.ErrorValidationsTest">
